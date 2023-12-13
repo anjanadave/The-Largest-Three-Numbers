@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find The Largest Among Three Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Find The Largest Among Three Numbers</h1>
+        <label for="numberInput" class="lable">Enter Number 1: </label>  
+        <input type="number" id="number1" class="one">
+         <br>
+        <label for="numberInput" class="lable">Enter Number 2: </label>  
+        <input type="number" id="number2" class="one">
+         <br>
+        <label for="numberInput" class="lable">Enter Number 3: </label> 
+        <input type="number" id="number3" class="one">
+         <br>
+        <button  onclick="findLargest()">Find Largest</button>
+        <p id="result"></p>
+    </div>
+    <script>
+     function findLargest(){
+        let num1 = parseFloat(document.getElementById("number1").value);
+        let num2 = parseFloat(document.getElementById("number2").value);
+        let num3 = parseFloat(document.getElementById("number3").value);
+
+        let largest = Math.max(num1, num2, num3);
+
+        document.getElementById("result").innerHTML = "The largest number is " + largest ;
+     }
+    </script>
+</body>
+</html>

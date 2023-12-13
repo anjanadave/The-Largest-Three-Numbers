@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A3CB38;
+}
+
+.main{
+    height: 60vh;
+    width: 50vw;
+    background-color: #fff;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.lable{
+    padding-left: 70px;
+    font-size: 25px; 
+}
+
+.one{
+    margin-top: 20px;
+    height: 4vh;
+    width: 15vw;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 20px;
+    height: 4vh;
+    width: 10vw;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+#result{
+    margin-left: 70px;
+    font-size: 25px;
+    margin-top: 15px;
+}
